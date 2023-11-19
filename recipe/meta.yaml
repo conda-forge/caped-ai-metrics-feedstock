@@ -1,5 +1,5 @@
 {% set name = "caped-ai-metrics" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/caped-ai-metrics-{{ version }}.tar.gz
-  sha256: 3538616697c48e3560c7f31a01094d7ba2bfb0bd05a9c0954c33317dc28e52d4
+  sha256: 9391355ef410da85ae9d31823df3427eee76b725a588921b9d9f8482b8df87ac
 
 build:
   noarch: python
